@@ -5,26 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Page</title>
   </head>
-  <body class="container">
+  <body id="body" class="container">
     <header class="sidebar">
       <img src="./assets/restaurant.png" class="logo" alt="Restaurant Image" />
       <h1 class="sidebar-title">Lo Restaurante</h1>
       <nav>
-        <ul>
-          <li><button class="nav-button">Home</button></li>
-          <li><button class="nav-button">About</button></li>
-          <li><button class="nav-button">Menu</button></li>
-          <li><button class="nav-button">Contact</button></li>
+        <ul id="nav-list">
+          <li><a href="/home" id="home" class="nav-button navigate-link">Home</a></li>
+          <li><a href="/about" id="about" class="nav-button navigate-link">About</a></li>
+          <li><a href="/menu" id="menu" class="nav-button navigate-link">Menu</a></li>
+          <li><a href="/contact" id="contact" class="nav-button navigate-link">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main id="content" class="main-content">
-      <section class="home-section">
-        <h1 class="title">Lo Restaurante</h1>
-        <h2 class="subtitle">Welcome to Our Restaurant</h2>
-        <p class="slogan">Discover our delicious menu and cozy atmosphere.</p>
-        <button class="button-menu">View our menu</button>
-      </section>
+    <main id="content" class="main-content"> 
     </main>
     <footer class="footer">
       <p>&copy; 2025 Lo Restaurante. All rights reserved.</p>

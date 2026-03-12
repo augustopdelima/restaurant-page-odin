@@ -1,4 +1,4 @@
-.home-section {
+.home-section, .about-section, .menu-section, .contact-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,6 +53,7 @@
     text-transform: uppercase;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .button-menu:hover {
